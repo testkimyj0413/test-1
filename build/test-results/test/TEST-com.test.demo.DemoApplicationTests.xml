@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-20T12:45:02" hostname="kimyjui-MacBookPro.local" time="0.651">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.test.demo.DemoApplicationTests" time="0.651"/>
+  <system-out><![CDATA[21:45:02.499 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.test.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:45:02.526 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.test.demo.DemoApplication for test class com.test.demo.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2025-07-20T21:45:02.639+09:00  INFO 29419 --- [    Test worker] com.test.demo.DemoApplicationTests       : Starting DemoApplicationTests using Java 21.0.3 with PID 29419 (started by kimyj in /Users/kimyj/test-1)
+2025-07-20T21:45:02.640+09:00  INFO 29419 --- [    Test worker] com.test.demo.DemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-07-20T21:45:02.939+09:00  INFO 29419 --- [    Test worker] com.test.demo.DemoApplicationTests       : Started DemoApplicationTests in 0.37 seconds (process running for 0.741)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/kimyj/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.4/3bf5ac1104554908cc623e40e58a00be37c35f36/byte-buddy-agent-1.14.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
