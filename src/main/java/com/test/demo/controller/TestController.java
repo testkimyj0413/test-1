@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @ResponseBody
-//@Profile("dev")
+@Profile("dev")
 @RequiredArgsConstructor
 public class TestController {
 
